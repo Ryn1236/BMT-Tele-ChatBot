@@ -288,29 +288,6 @@ async def handle_callback_query(
         )
 
 
-    # elif data == "outfield":
-
-    #     await delete_current_message(query)
-
-    #     response_text = (
-    #         "Field Camp gives recruits the opportunity to apply "
-    #         "their soldiering and fieldcraft skills in an outdoor "
-    #         "environment. They spend an extended period away from "
-    #         "normal camp facilities while managing their equipment "
-    #         "and working as a team. The experience develops resilience, "
-    #         "teamwork, adaptability and independence. Parents should "
-    #         "not be surprised if their son returns tired, dirty or "
-    #         "uncomfortable after outfield training."
-    #     )
-
-    #     await send_activity(
-    #         update,
-    #         context,
-    #         response_text,
-    #         "outfield.jpeg"
-    #     )
-
-
     elif data == "UO":
 
         await delete_current_message(query)
@@ -394,7 +371,7 @@ async def handle_callback_query(
 
         response_text = (
             "📧 <b>CO 12 C4I</b>\n\n"
-            'Email: <a href="mailto:George_Liu_Jun@defence.gov.sg">George_Liu_Jun@defence.gov.sg</a>'
+            'Email: <a href="mailto:Test@gmail.com">Test@gmail.com</a>'
         )
 
         keyboard = [
@@ -825,13 +802,6 @@ async def highkey_keyboard(
                 callback_data="IFC"
             )
         ],
-
-        # [
-        #     InlineKeyboardButton(
-        #         "Field Camp (Outfield) ⛺",
-        #         callback_data="outfield"
-        #     )
-        # ],
 
         [
             InlineKeyboardButton(
