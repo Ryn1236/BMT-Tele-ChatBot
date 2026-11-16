@@ -8,7 +8,7 @@ from telegram.ext import (
 from pathlib import Path
 
 
-TELEGRAM_TOKEN = "8832473700:AAHfv2uHhxl2MB7F2aGYh_AGgjP8BVsJPFA"
+TELEGRAM_TOKEN = "Telegram Bot Token"
 
 VERSION = "1.0.0"
 
